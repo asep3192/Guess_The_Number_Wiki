@@ -1,6 +1,6 @@
 function checkPass(code) {
 
-    let x = document.getElementById("fname")
+    let x = document.getElementById("password-input")
 
     let store = ""
 
