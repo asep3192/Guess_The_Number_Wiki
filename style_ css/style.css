@@ -162,3 +162,20 @@ span {
         body { background-color: whitesmoke; }
 
     }
+
+    .whitesmokeblacktext{
+        background-color: whitesmoke;
+        color:black;
+    }
+    .textdefaultmargin1cent{
+        background-color: black; color:whitesmoke; margin: 1%;
+    }
+    
+    .textdefaultmargin2cent{
+        background-color: whitesmoke; color:black; margin: 2%;
+    }
+
+    .textdefaultmargin3cent{
+        background-color: whitesmoke; color:black; margin: 3%;
+    }
+    /*style="background-color: whitesmoke; color:black;">*/
