@@ -179,3 +179,7 @@ span {
         background-color: whitesmoke; color:black; margin: 3%;
     }
     /*style="background-color: whitesmoke; color:black;">*/
+    .dark-mode {
+        background-color: black;
+        color: white;
+      }
