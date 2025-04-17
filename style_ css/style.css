@@ -183,3 +183,7 @@ span {
         background-color: black;
         color: white;
       }
+      .light-mode {
+        background-color: whitesmoke;
+        color: black;
+    }
