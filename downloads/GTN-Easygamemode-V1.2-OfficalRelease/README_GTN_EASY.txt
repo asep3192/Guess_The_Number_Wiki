@@ -15,7 +15,7 @@ When updating "replace all files" with the new version. You can keep the .dll fi
 DO NOT DELETE .dll files or else the game will stop working.
 Do not distribute. Unless you are backing up files (file history, or other system back up options).
 Do Not Plagiarize
-If You would like to distribute The Game out of the Reasons Listed above than Please use The Download Link on the website. You can access that here or you can copy the download link from the Guess The Number Wiki - Easy Gamemode Page, (https://asep3192.github.io/Guess_The_Number_Wiki/Easy_Gamemode.html)
+If You would like to distribute The Game out of the Reasons Listed above than Please use The download Link on the website. You can access that here or you can copy the download link from the Guess The Number Wiki - Easy Gamemode Page, (https://asep3192.github.io/Guess_The_Number_Wiki/Easy_Gamemode.html)
 
 
 To Find out what was added and/or removed from/into the game, Check the Update Notes Text File
@@ -29,7 +29,7 @@ OR through email at: Coming soon
 
 
 Date Released
-Guess The Number - Easy Gamemode Menu Update  was released to the public on May 16, 2025 (5/16/25) but was delayed to 5/19/25 (May 19, 2025) on the Easy page of the Guess The Number wiki. 
+Guess The Number - Easy Gamemode Menu Update & Accebility Help Menu Update was released to the public on May 16, 2025 (5/16/25) but was delayed to 5/19/25 (May 19, 2025) on the Easy page of the Guess The Number wiki. 
 Guess The Number - Easy Gamemode Version 1 was released to the public on March 17, 2025 (3/17/25) on the Easy page of the Guess The Number wiki. 
 
 Where to find other game modes
