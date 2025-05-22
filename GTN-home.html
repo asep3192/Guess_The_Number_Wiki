@@ -55,10 +55,43 @@
         <body>
 
         <script>
-        function myFunction() {
-           var element = document.body;
-           element.classList.toggle("dark-mode");
+        function toggle() {
+    var tag = document.getElementsByTagName("body")[0].classList
+    if (document.getElementById("SWITCH").checked) {
+        tag.remove("light_bg")
+        tag.add("dark_bg")
+
+        var taglen = document.getElementsByClassName("light").length
+        
+        for (var i = 0; i < taglen; i++) {
+            tag = document.getElementsByClassName("light")[0].classList
+            tag.add("dark")
+            tag.remove("light")
         }
+    }
+    else {
+        tag.remove("dark_bg")
+        tag.add("light_bg")
+
+        var taglen = document.getElementsByClassName("dark").length
+
+        for (var i = 0; i < taglen; i++) {
+            tag = document.getElementsByClassName("dark")[0].classList
+            tag.add("light")
+            tag.remove("dark")
+        }
+    }
+}
+
+var dflt = "dark" //Set default color setting. Best practice to type "dark" for dark mode, even though it is not necessary
+
+if (dflt == "light") {
+    document.getElementById("SWITCH").checked = false
+}
+else {
+    document.getElementById("SWITCH").checked = true
+}
+toggle()
         </script>
         
         
@@ -66,12 +99,99 @@
         
         </ul>
     </div>
+     <style>
+            .dark_bg {
+                background-color: black;
+            }
+            .light_bg {
+                background-color: white;
+            }
+            .dark {
+                background-color: white;
+                color: black;
+            }
+            .light {
+                background-color: black;
+                color: white;
+            }
+
+
+            .switch {
+                position: relative;
+                display: inline-block;
+                width: 40px;
+                height: 22px;
+                }
+
+                /* Hide default HTML checkbox */
+                .switch input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+                }
+
+                /* The slider */
+                .slider {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #EEEEEE;
+                -webkit-transition: .4s;
+                transition: .4s;
+                }
+
+                .slider:before {
+                position: absolute;
+                content: "";
+                height: 18px;
+                width: 18px;
+                left: 2px;
+                bottom: 2px;
+                background-color: #33383b;
+                -webkit-transition: .4s;
+                transition: .4s;
+                }
+
+                input:checked + .slider {
+                background-color: #33383b;
+                }
+
+                input:focus + .slider {
+                box-shadow: 0 0 1px #33383b;
+                }
+
+                input:checked + .slider:before {
+                -webkit-transform: translateX(18px);
+                -ms-transform: translateX(18px);
+                transform: translateX(18px);
+                background-color: #FFFFFF;
+                }
+
+                /* Rounded sliders */
+                .slider.round {
+                border-radius: 34px;
+                }
+
+                .slider.round:before {
+                border-radius: 50%;
+                }
+
+        </style>
+    </head>
+    <body class="light_bg">
+        
     
     <!--<header> Header Test 
     </header> -->
     <div id="body">
         <div style="text-align: right;">
-                <button onclick="myFunction()">Toggle dark mode </button>
+                <label class="switch" onclick="toggle()">
+            <input id="SWITCH" type="checkbox">
+            <span class="slider round"></span>
+        </label>
             </div>
 
         <h1><span> Welcome to the Guess The Number Wiki</h1> </span>
