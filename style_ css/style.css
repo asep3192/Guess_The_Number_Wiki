@@ -9,7 +9,7 @@ body {
 #body {
     margin: 10px;
 }
-
+/*Color for GTN Icon background: #212430*/
 .footer {
     position: fixed;
     left: 0;
@@ -171,7 +171,7 @@ span {
         background-color: whitesmoke;
         color:black;
     }
-    .margin1percent{
+    .textdefaultmargin1cent{
         background-color: black; color:whitesmoke; margin: 1%;
     }
     
