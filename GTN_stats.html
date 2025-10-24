@@ -6,13 +6,222 @@
     <title>Secret Page - GTN Stats</title>
     <!--<link rel="icon" type="image/x-icon" href="assets/Secret_Page_Favicon.gif">-->
     <link rel="icon" type="image/x-icon" href="assets/GTN_Secret_Page.png">
+    <link rel="stylesheet" href="JS, CSS, & assets/style_ css/GTN-Stats.css">
     <!--<link rel="icon" type="image/x-icon" href="assets/Steam_Qustion_Mark_Black_BKD.png">-->
 </head>
 <body>
   <body style="background-color:black;" id="body"></body>
-
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "da6706e0fa6f4eae86c7c9493f718bb6"}'></script><!-- End Cloudflare Web Analytics -->
   <li class="navbar">  <a href="index.html"> <img src="assets/GTN_Default_1.png" height="60" width="auto" title="Back to Home Page">
     <li class="navbar"> <p>Put Light Mode, Dark Mode Button Switcher Here.</p>        </li></a>
+     <div id="body">
+          <!--Part of making the Website back to its origanal Size spacing--> <style>
+        body {
+          padding: 25px;
+          background-color: whitesmoke;
+          
+          color: black;
+          font-size: 19px;
+        }
+        
+        .dark-mode {
+          background-color: black;
+          color: whitesmoke;
+        }
+        .light-mode {
+            background-color: whitesmoke;
+            color: black;
+        }
+        </style>
+        </head>
+        <body>
+             <!--  <h1><span> Welcome to the Guess The Number Wiki</h1> </span>-->
+
+        <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+        
+        
+        </body>
+        
+        </ul>
+    </div>
+    
+    <!--<header> Header Test 
+    </header> -->
+    <div id="body">
+       
+        <div style="text-align: right;">
+                <span style="  color: black">Disable dark mode</span>
+            <div style="text-align: left;"></div>
+            </div>
+      <!--This is what fixed the website back into its orignal size spacing-->
+                 <style>
+        body {
+            padding: 19px;
+          background-color: black;
+          
+          color: black;
+          font-size: 19px;
+        }
+        
+        .dark-mode {
+          background-color: whitesmoke;
+          color: black;
+        }
+        .light-mode {
+            background-color: black;
+            color: whitesmoke;
+        }
+        </style>
+        </head>
+        <!--End part of CSS that fixed bringing Website into orignal sizing -->
+        <body>
+
+        <script>
+        function toggle() {
+    var tag = document.getElementsByTagName("body")[0].classList
+    if (document.getElementById("SWITCH").checked) {
+        tag.remove("light_bg")
+        tag.add("dark_bg")
+
+        var taglen = document.getElementsByClassName("light").length
+        
+        for (var i = 0; i < taglen; i++) {
+            tag = document.getElementsByClassName("light")[0].classList
+            tag.add("dark")
+            tag.remove("light")
+        }
+    }
+    else {
+        tag.remove("dark_bg")
+        tag.add("light_bg")
+
+        var taglen = document.getElementsByClassName("dark").length
+
+        for (var i = 0; i < taglen; i++) {
+            tag = document.getElementsByClassName("dark")[0].classList
+            tag.add("light")
+            tag.remove("dark")
+        }
+    }
+}
+
+var dflt = "dark" //Set default color setting. Best practice to type "dark" for dark mode, even though it is not necessary
+
+if (dflt == "light") {
+    document.getElementById("SWITCH").checked = false
+}
+else {
+    document.getElementById("SWITCH").checked = true
+}
+toggle()
+        </script>
+        
+        
+        </body>
+        
+        </ul>
+    </div>
+    
+     <style>
+            .dark_bg {
+                background-color: black;
+            }
+            .light_bg {
+                background-color: black;
+            }
+            .dark {
+                background-color: purple;
+                color: black;
+            }
+            .light {
+                background-color: black;
+                color: purple;
+            }
+
+
+            .switch {
+                position: relative;
+                display: inline-block;
+                width: 40px;
+                height: 22px;
+                }
+
+                /* Hide default HTML checkbox */
+                .switch input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+                }
+
+                /* The slider */
+                .slider {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #EEEEEE;
+                -webkit-transition: .4s;
+                transition: .4s;
+                }
+
+                .slider:before {
+                position: absolute;
+                content: "";
+                height: 18px;
+                width: 18px;
+                left: 2px;
+                bottom: 2px;
+                background-color: #33383b;
+                -webkit-transition: .4s;
+                transition: .4s;
+                }
+
+                input:checked + .slider {
+                background-color: #33383b;
+                }
+
+                input:focus + .slider {
+                box-shadow: 0 0 1px #33383b;
+                }
+
+                input:checked + .slider:before {
+                -webkit-transform: translateX(18px);
+                -ms-transform: translateX(18px);
+                transform: translateX(18px);
+                background-color: #f5f5f5;
+                }
+
+                /* Rounded sliders */
+                .slider.round {
+                border-radius: 34px;
+                }
+
+                .slider.round:before {
+                border-radius: 50%;
+                }
+
+        </style>
+    </head>
+    <body class="light_bg">
+        
+    
+    <!--<header> Header Test 
+    </header> -->
+    <div id="body">
+        <div style="text-align: right;">
+                <label class="switch" onclick="toggle()">
+            <input id="SWITCH" type="checkbox" checked>
+            <span class="slider round"></span>
+        </label>
+            </div>
+     
   <li class="navbar">  <p> <span style="color:whitesmoke; margin: 2%;"> Home </li> </p>
  
   </span>
@@ -49,7 +258,7 @@
       <h3> <span style="color: whitesmoke; margin: 3%;"> Last Update Released: Menu Update & Accessibility Help Menu (V1.2)</span>  </h3> 
       <h3>  <span style="color:whitesmoke; margin: 3%;"> Diffuclty: Easy </span> </h3>  
       <h3>  <span style="color:whitesmoke; margin: 3%;"> Number Range: 0-100  </span> </h3> 
-      <h3>  <span style="color:whitesmoke; margin: 3%;"> Attempts/number of Guesses): 7 </span> </h3> 
+      <h3>  <span style="color:whitesmoke; margin: 3%;"> Attempts/number of Guesses: 7 </span> </h3> 
       <h3>  <span style="color:whitesmoke; margin: 3%;"> Created By: Asep1582/Asep3192  </span> </h3> 
       <h3>  <span style="color:whitesmoke; margin: 3%;"> Beaten yet? <!--(Insert question mark image)-->: Yes </span> </h3> 
       <h3>  <span style="color:whitesmoke; margin: 3%;"> Beaten more than once?: Yes</span>
