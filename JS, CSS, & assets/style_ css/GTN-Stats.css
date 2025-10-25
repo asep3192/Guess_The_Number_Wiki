@@ -1,38 +1,38 @@
 
     @media screen and (prefers-color-scheme: dark) {
         p { color: black; }
-        span { 
-            color: black;
-            background-color: whitesmoke; 
+        /*span { 
+            color: black;*/
+           /* background-color: whitesmoke;*/ 
         }
-        body {background-color: black; }
-    }
+        /*body {background-color: black; }
+    }*/
     
     @media screen and (prefers-color-scheme: light) {
         p { color: black; }
         span { 
             color: whitesmoke; 
-            background-color: black;
+          /*  background-color: black;*/
             
         }
         .navbar
         span {color: whitesmoke;
-            background-color: black;
+           /* background-color: black;*/
         
         }
         li 
         span
             {color: whitesmoke;
-            background-color: black;
+           /* background-color: black;*/
             
             }
             
             span { 
                 color: whitesmoke; 
-                background-color: black;
+                /*background-color: black;*/
             }
             
-        body { background-color: whitesmoke; }
+        
 
     }
 
